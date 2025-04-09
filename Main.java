@@ -11,5 +11,8 @@ class Main {
     creditHours.put("IT-2650", 4);
     creditHours.put("IT-2660", 4);
     creditHours.put("IT-2030", 4);
+
+    System.out.print("IT-1025 in map: " + creditHours.containsKey("IT-1025"));
+    System.out.print("IT-2110 in map: " + creditHours.containsKey("IT-2110"));
   }
 }
