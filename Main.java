@@ -16,5 +16,8 @@ class Main {
     System.out.print("IT-2110 in map: " + creditHours.containsKey("IT-2110"));
 
     System.out.println("Entries in map creditHours: " + creditHours);
+
+    creditHours.remove("IT-2030");
+    creditHours.remove("IT-1150");
   }
 }
